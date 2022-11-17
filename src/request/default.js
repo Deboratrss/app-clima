@@ -5,5 +5,5 @@ export const weather = new Axios({
 });
 
 export const geocode = new Axios({
-    baseURL: 'http://api.openweathermap.org/geo/1.0/direct'
+    baseURL: 'https://api.openweathermap.org/geo/1.0/direct'
 });
